@@ -17,16 +17,6 @@ export const Container = styled.div`
   }
 `;
 
-export const Table = styled.table`
-  width: 100%;
-  background-color: #fff;
-  padding: 20px;
-  box-shadow: 0px 0px 5px #ccc;
-  border-radius: 5px;
-  max-width: 1120px;
-  margin: 20px auto;
-`;
-
 export const InputContent = styled.div`
   display: flex;
   flex-direction: column;
@@ -48,6 +38,7 @@ export const RadioGroup = styled.div`
 
   input {
     margin-left: 20px;
+    margin-right: 5px;
     accent-color: black;
     margin-top: 0;
   }
